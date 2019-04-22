@@ -1,0 +1,67 @@
+body , html {
+    height: 100%;
+  }
+ * {
+     box-sizing: border-box;
+ }
+  .alt {
+    background: white;
+    background-image: url("../images/popop.jpg");
+    background-size: 1000px 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+  }
+  .boom {
+      /* background-image: url("../images/note2.PNG"); */
+      /* filter: blur(4px);  */
+      background-size: 1000px 750px;
+      background-position:right;
+      background-size: 70px 60x; 
+      background-repeat: no-repeat;
+      height: 100%;
+      /* position: absolute;
+      top: 50px;
+      border: 3px solid green; */
+  }
+ .all{
+  /* display:none; */
+    background-image: url("../images/note1.PNG");
+    
+    background-repeat: no-repeat;
+    background-position:right bottom;
+    background-size: 700px 600x;  
+     height: 100%;
+ }
+
+  .form-group {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .form-group0 {
+    font-size:35px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+.butt{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.but{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+
+
+
+/* https://www.w3schools.com/html/html_examples.asp
+https://getbootstrap.com/docs/4.3/components/forms/
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjson_ajax
+https://www.creative-tim.com/product/material-kit-pro/?affiliate_id=101249 */
