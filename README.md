@@ -50,7 +50,7 @@ App struture
 
 - $ git clone (https://github.com/Merlieb/sinatra_project_final)
 - Make sure Sinatra is installed by running `gem install sinatra` in your terminal.
-- You can run rack congfig.ru or shotgun 
+- You can run rack config.ru or shotgun 
 - If you don't `shotgun` install You should require it in an application's Gemfile run
 1. `gem install shotgun` 
 2. `bundle install` 
