@@ -9,7 +9,7 @@ end
 
 use Rack::MethodOverride
 
-
+use UsersController
 use ImagesController
 use SessionsController
 run ApplicationController
