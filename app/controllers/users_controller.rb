@@ -1,4 +1,5 @@
 class UsersController < ApplicationController
+#use Rack::flash
     get '/users' do
         @users = User.all
         erb :'users/index'
@@ -56,6 +57,7 @@ class UsersController < ApplicationController
       if @user && @user.update(username:params[:username], email:params[:email])
        redirect "/users/#{@user.id}"
       else 
+        # flash[:error_edit] = "No user has this name"
         redirect to '/login'
       end
     end
